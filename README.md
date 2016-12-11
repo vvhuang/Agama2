@@ -1,6 +1,6 @@
 # Agama
 
-Agama WordPress Theme, Copyright 2015 Theme-Vision.com
+Agama WordPress Theme, Copyright 2015 Theme-Vision.com  
 Agama is distributed under the terms of the GNU GPL2
 
 ####################### Changelog ######################
