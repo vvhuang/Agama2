@@ -1081,6 +1081,8 @@ a:hover {
 .tv-soundcloud:hover { background-color: #FF7700; }
 .tv-vk:hover { background-color: #2B587A; }
 .tv-email:hover { background-color: #6567A5; }
+.tv-resume:hover { background-color: #FF5733; }
+.tv-visualcv:hover { background-color: #3BBBA0; }
 
 /* = Top Login
  *------------------------------------------------------------- */
@@ -1556,6 +1558,12 @@ header#masthead nav ul li ul.sub-menu li ul.sub-menu li:hover {
 }
 .social-icons.email:before {
 	content: "\f1fa";
+}
+.social-icons.resume:before {
+	content: "\f1c1";
+}
+.social-icons.visualcv:before {
+	content: "\f06e";
 }
 
 /* Sticky Header Navigation */

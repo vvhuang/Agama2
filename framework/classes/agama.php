@@ -253,7 +253,7 @@ if( ! class_exists( 'Agama' ) ) {
                 'VK'        => esc_url( get_theme_mod('social_vk', '') ),
                 'Email'     => esc_url( get_theme_mod('social_email', '') ),
                 'Resume'    => esc_url( get_theme_mod('social_resume', '') ),
-                'VisualCV'  => esc_url( get_theme_mod('social_visualCV', '') ),
+                'VisualCV'  => esc_url( get_theme_mod('social_visualcv', '') ),
                 'RSS'       => esc_url( get_theme_mod('social_rss', get_bloginfo('rss2_url')) )
             );
             if( $style == 'animated' ):
@@ -267,7 +267,7 @@ if( ! class_exists( 'Agama' ) ) {
                         elseif( $name == 'VisualCV' ):
                             $fa_class = 'eye';
                         else:
-                            $fa_class = $name
+                            $fa_class = $name;
                         endif;
                         echo sprintf
                         (
@@ -282,7 +282,7 @@ if( ! class_exists( 'Agama' ) ) {
                                      </span>
                                  </a>
                              </li>', 
-                            esc_attr( strtolower($name) ), $url, $_target, esc_attr( strtolower( $fa_name ) ), esc_attr( $name )
+                            esc_attr( strtolower($name) ), $url, $_target, esc_attr( strtolower( $fa_class ) ), esc_attr( $name )
                         );
                     }
                 }
