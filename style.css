@@ -1039,7 +1039,7 @@ a:hover {
 	float: none;
 	width: 40px;
 	font-weight: bold;
-	color: #666;
+	color: #34CFB0;
 	-webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
 	-o-transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
 	transition: color .3s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
@@ -3171,6 +3171,9 @@ img#wpstats {
 	.sticky-header nav.pull-right {
 		display: none !important;
 	}
+	.sticky-header .pull-right.nobottommargin {
+		position: relative;
+	}
 	.top-navigation ul.top-nav-menu, 
 	.top-navigation div.top-nav-menu > ul,
 	.main-navigation ul.nav-menu,
@@ -4309,7 +4312,9 @@ img#wpstats {
   float: right !important;
 }
 .pull-right.nobottommargin {
-  margin-right: 14%;	
+  position: fixed;
+  float: left;
+  margin-left: 36.2%;	
 }
 .pull-left {
   float: left !important;

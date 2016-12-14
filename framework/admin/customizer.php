@@ -1026,7 +1026,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             ),
         ),
-        'default'       => '#fff'
+        'default'       => '#FFD800'
     ) );
     Kirki::add_field( 'agama_header_bg_color', array(
         'label'         => __( 'Header BG Color', 'agama' ),
@@ -1114,7 +1114,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             )
         ),
-        'default'       => '#F27620'
+        'default'       => '#FFD800'
     ) );
     Kirki::add_field( 'agama_header_nav_hover_color', array(
         'label'         => __( 'Navigation Hover Color', 'agama' ),
@@ -1128,7 +1128,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             )
         ),
-        'default'       => '#fff'
+        'default'       => '#34CFB0'
     ) );
     Kirki::add_section( 'agama_styling_footer_section', array(
         'title'         => __( 'Footer', 'agama' ),
