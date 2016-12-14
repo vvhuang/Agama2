@@ -1026,7 +1026,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             ),
         ),
-        'default'       => '#000'
+        'default'       => '#fff'
     ) );
     Kirki::add_field( 'agama_header_bg_color', array(
         'label'         => __( 'Header BG Color', 'agama' ),
@@ -1046,7 +1046,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'background-color'
             )
         ),
-        'default'       => 'rgba( 255, 255, 255, 1 )'
+        'default'       => 'rgba( 255, 255, 255, .1 )'
     ) );
     Kirki::add_field( 'agama_header_shrink_bg_color', array(
         'label'         => __( 'Header Shrinked BG Color', 'agama' ),
@@ -1067,7 +1067,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'suffix'    => '!important'
             )
         ),
-        'default'       => 'rgba(255, 255, 255, .9)'
+        'default'       => 'rgba(255, 255, 255, .1)'
     ) );
     Kirki::add_field( 'agama_header_border_color', array(
         'label'         => __( 'Header Borders Color', 'agama' ),
@@ -1114,7 +1114,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             )
         ),
-        'default'       => '#444'
+        'default'       => '#F27620'
     ) );
     Kirki::add_field( 'agama_header_nav_hover_color', array(
         'label'         => __( 'Navigation Hover Color', 'agama' ),
@@ -1128,7 +1128,7 @@ add_filter( 'kirki/config', 'agama_theme_kirki_update_url' );
                 'property'  => 'color'
             )
         ),
-        'default'       => '#000'
+        'default'       => '#fff'
     ) );
     Kirki::add_section( 'agama_styling_footer_section', array(
         'title'         => __( 'Footer', 'agama' ),
@@ -2066,7 +2066,7 @@ function agama_customize_css() { ?>
     <?php if( get_theme_mod( 'agama_header_style', 'transparent' ) == 'transparent' ): ?>
     /* HEADER V1
      *********************************************************************************/
-    .header_v1 .sticky-header { position: fixed; box-shadow: none; -webkit-box-shadow: none; border-bottom: 2px solid rgba(255,255,255, .1); }
+    .header_v1 .sticky-header { position: fixed; box-shadow: none; -webkit-box-shadow: none; border-bottom: 2px solid rgba(255,255,255, 0); }
     .header_v1.shrinked .sticky-header { border-bottom: 0 none; }
     <?php endif; ?>
     

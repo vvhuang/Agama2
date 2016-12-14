@@ -1033,7 +1033,7 @@ a:hover {
 	height: 44px;
 	line-height: 44px;
 }
-#top-social li { border-left: 1px solid #EEE; }
+#top-social li { border-left: 1px transparent; }
 #top-social li:first-child { border-left: 0 !important; }
 #top-social li a {
 	float: none;
@@ -4307,6 +4307,9 @@ img#wpstats {
 }
 .pull-right {
   float: right !important;
+}
+.pull-right.nobottommargin {
+  margin-right: 14%;	
 }
 .pull-left {
   float: left !important;
