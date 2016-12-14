@@ -4,6 +4,12 @@ Agama WordPress Theme, Copyright 2015 Theme-Vision.com
 Agama is distributed under the terms of the GNU GPL2
 
 ####################### Changelog ######################
+= 1.2.5 December 14 2016 = (by: Vivi Huang)
+* FIXED: Email social icon not showing in the header.
+* ADDED: Resume and VisualCV social icon options.
+* UPDATED: Header V1 now supports social icons.
+* UPDATED: Header positioning and color coordination.
+
 = 1.2.4 November 22 2016 =
 * Fixed dashed lines issue when comments are disabled.
 * Minor styling fixes.
