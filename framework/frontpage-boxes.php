@@ -97,7 +97,7 @@ if( ! function_exists( 'agama_frontpage_boxes' ) ):
 					<div class="<?php echo esc_attr( $bs_class ); ?>">
 						
 						<?php if( $box_1_icon_url ): ?>
-						<a href="<?php echo esc_url( $box_1_icon_url ); ?>">
+						<a href="<?php echo esc_url( $box_1_icon_url ); ?>" target="_blank">
 						<?php endif; ?>
 						
 						<?php if( $box_1_img ): ?>
@@ -120,7 +120,7 @@ if( ! function_exists( 'agama_frontpage_boxes' ) ):
 					<div class="<?php echo esc_attr( $bs_class ); ?>">
 						
 						<?php if( $box_2_icon_url ): ?>
-						<a href="<?php echo esc_url( $box_2_icon_url ); ?>">
+						<a href="<?php echo esc_url( $box_2_icon_url ); ?>" target="_blank">
 						<?php endif; ?>
 						
 						<?php if( $box_2_img ): ?>
@@ -143,7 +143,7 @@ if( ! function_exists( 'agama_frontpage_boxes' ) ):
 					<div class="<?php echo esc_attr( $bs_class ); ?>">
 						
 						<?php if( $box_3_icon_url ): ?>
-						<a href="<?php echo esc_url( $box_3_icon_url ); ?>">
+						<a href="<?php echo esc_url( $box_3_icon_url ); ?>" target="_blank">
 						<?php endif; ?>
 						
 						<?php if( $box_3_img ): ?>
@@ -166,7 +166,7 @@ if( ! function_exists( 'agama_frontpage_boxes' ) ):
 					<div class="<?php echo esc_attr( $bs_class ); ?>">
 						
 						<?php if( $box_4_icon_url ): ?>
-						<a href="<?php echo esc_url( $box_4_icon_url ); ?>">
+						<a href="<?php echo esc_url( $box_4_icon_url ); ?>" target="_blank">
 						<?php endif; ?>
 						
 						<?php if( $box_4_img ): ?>

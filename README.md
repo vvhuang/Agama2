@@ -9,6 +9,7 @@ Agama is distributed under the terms of the GNU GPL2
 * ADDED: Resume and VisualCV social icon options.
 * UPDATED: Header V1 now supports social icons.
 * UPDATED: Header positioning and color coordination.
+* UPDATED: Frontpage boxes URL now opens in a new page.
 
 = 1.2.4 November 22 2016 =
 * Fixed dashed lines issue when comments are disabled.
